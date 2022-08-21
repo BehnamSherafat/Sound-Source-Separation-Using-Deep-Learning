@@ -23,31 +23,23 @@ I proposed a software-oriented approach using Deep Neural Networks (DNNs) and Ti
 MATLAB
 
 ## Guide to folders and files
-There are 10 folders available in this repo, that provides the required codes for each type of heavy construction equipment (each equipment has different movements and actions; hence different labels/targets.
-Each folder consists of several files, which are explained as follows:
-1. **Main file** (Fusion_Training.m): This is the main file to execute.
-2. **Denoising algorithms and functions** (algorithm developed by Rangachari, S.; Loizou, P.C. A noise-estimation algorithm for highly non-stationary environments. Speech Commun. 2006, 48, 220–231):
-  initialise_parameters.m
-  mcra2_estimation.m
-  noise_estimation.m
-  specsub_ns.m
-3. **Inputs:**
-  **Kinematic Data** (Accelerometer and gyroscope):
-    test2.mat
+Codes are explained as follows:
+1. **Main file** (SSS_DeepLearning.m): This is the main file to execute.
+2. **Inputs:**
   **Sound Data**
     Two .WAV files (equipment sound collected on the job site using a microphone)
       _ori: means original sound
       _den: means denoised sound
 
 ## Methodology
-![image](https://user-images.githubusercontent.com/73087167/185805547-b7f6c797-d257-45bb-b596-1bb6b028aeeb.png)
+![image](https://user-images.githubusercontent.com/73087167/185807793-cc696857-14ce-40c0-8682-3ca6ca62cc0f.png)
 
-## Sample data (sound signals)
-![image](https://user-images.githubusercontent.com/73087167/185805572-b3380470-7e43-4042-ba23-401d36bf1ee3.png)
 
-## Principal Component Analysis
-![image](https://user-images.githubusercontent.com/73087167/185805597-fcba0bc7-1430-4463-93ef-aa6ee023006b.png)
+## Results (Hard TFM)
+![image](https://user-images.githubusercontent.com/73087167/185807809-dd383387-a636-4b70-8f94-c43b92f91833.png)
 
-## Confusion Matrix
-![image](https://user-images.githubusercontent.com/73087167/185805610-a832b48c-e0e0-420c-a9ab-31eb1696c2dd.png)
+## Results (Soft TFM)
+![image](https://user-images.githubusercontent.com/73087167/185807818-a4dbf015-ef4f-48c3-bbcc-eb753f3cb6f2.png)
 
+## Source Separation Evaluation
+![image](https://user-images.githubusercontent.com/73087167/185807835-7300e7c0-87ae-4d67-a15b-0183756c45e9.png)
